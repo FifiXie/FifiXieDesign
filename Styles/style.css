@@ -82,3 +82,9 @@ li {
 	width: 28%;
 	height: auto;
 }
+
+@media screen and (max-width: 500px) {
+.menulist{
+	display: list-item;
+}
+}
