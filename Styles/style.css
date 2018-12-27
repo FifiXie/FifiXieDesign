@@ -84,7 +84,26 @@ li {
 }
 
 @media screen and (max-width: 500px) {
-.menulist{
-	display: list-item;
-}
+	ul.menuList{
+	display: flex;
+	flex-direction: column;
+	}
+
+	#item1{
+	margin: 1.2% 0 0 10%;
+	width: 80%;
+	height: auto;
+	}
+
+	#item2{ 
+	margin: 1.2% 0 0 10%;
+	width: 80%;
+	height: auto;
+	}	
+
+	#item3{
+	margin: 1.2% 0 0 10%;
+	width: 80%;
+	height: auto;
+	}
 }
