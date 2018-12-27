@@ -1,0 +1,84 @@
+
+body{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 7.5%;
+	/*margin-right: 7.5%;*/
+}
+
+.Parent {
+	/*padding-right: 7.5%;*/
+}
+
+
+.Name {
+	position: absolute;
+	left: 7.5%;
+	top: 6%;
+	font-family: hypatia-sans-pro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 30pt;
+}
+
+.Menu {
+	margin-right: 7.5%;
+	position: absolute;
+	left: 80%;
+	top:11%;
+}
+
+.menuList {
+
+	list-style-type: none;
+	position: absolute;
+	padding: 25% 17%;
+	font-family: futura-pt, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14pt;
+	display: flex;
+	flex-direction: row;
+
+}
+
+li {
+		margin: 9%;
+}
+
+.landingimg {
+	position: absolute;
+	left:36%;
+	top: 24%;
+/*	margin: 24% 36%;*/
+}
+
+#intro {
+	margin: 0;
+	width: 54%;
+	height: auto;
+}
+
+.grid {
+	position: absolute;
+	top: 63%;
+
+}
+
+#item1{
+	margin: 0 1.5% 0 0;
+	width: 28%;
+	height: auto;
+}
+
+#item2{ 
+	margin: 0 1.5% 0 0;
+	width: 28%;
+	height: auto;
+}
+
+#item3{
+	margin: 0 7.5% 0 0;
+	width: 28%;
+	height: auto;
+}
