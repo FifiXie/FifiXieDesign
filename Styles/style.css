@@ -90,20 +90,26 @@ li {
 	}
 
 	#item1{
-	margin: 1.2% 0 0 10%;
+	margin: 1.2% 0 0 8.5%;
 	width: 80%;
 	height: auto;
 	}
 
 	#item2{ 
-	margin: 1.2% 0 0 10%;
+	margin: 1.2% 0 0 8.5%;
 	width: 80%;
 	height: auto;
 	}	
 
 	#item3{
-	margin: 1.2% 0 0 10%;
+	margin: 1.2% 0 0 8.5%;
 	width: 80%;
 	height: auto;
+	}
+
+	.landingimg{
+			position: absolute;
+	left:36%;
+	top: 37%;
 	}
 }
