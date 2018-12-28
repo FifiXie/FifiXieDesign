@@ -1,4 +1,3 @@
-
 body{
 	margin-top: 1%;
 	margin-bottom: 1%;
@@ -46,83 +45,6 @@ li {
 		margin: 9%;
 }
 
-.landingimg {
-	position: absolute;
-	left:36%;
-	top: 27%;
-/*	margin: 24% 36%;*/
-}
-
-#intro {
-	margin: 0;
-	width: 54%;
-	height: auto;
-}
-
-.grid {
-	position: absolute;
-	top: 69%;
-
-}
-
-#item1{
-	margin: 0 1.5% 0 0;
-	width: 28%;
-	height: auto;
-}
-
-#item2{ 
-	margin: 0 1.5% 0 0;
-	width: 28%;
-	height: auto;
-}
-
-#item3{
-	margin: 0 0 0 0;
-	width: 28%;
-	height: auto;
-}
-
-@media screen and (max-width: 500px) {
-	ul.menuList{
-	display: flex;
-	flex-direction: column;
-	padding-right: 7%;
-	}
-
-	#item1{
-	margin: 1.2% 0 0 7.5%;
-	width: 80%;
-	height: auto;
-	}
-
-	#item2{ 
-	margin: 1.2% 0 0 7.5%;
-	width: 80%;
-	height: auto;
-	}	
-
-	#item3{
-	margin: 1.2% 0 0 7.5%;
-	width: 80%;
-	height: auto;
-	}
-
-	.landingimg{
-	width: 120%;
-	height:auto;
-	position: absolute;
-	left:30%;
-	top: 37%;
-	}
-
-	.footer{
-		visibility: hidden;
-	}
-}
-
-
-/* unvisited link */
 a:link {
   color: black;
   text-decoration: none;
@@ -150,11 +72,28 @@ a:active {
   font-style: normal;
 }
 
+@media screen and (max-width: 500px) {
+	ul.menuList{
+	display: flex;
+	flex-direction: column;
+	padding-right: 7%;
+	}
+}
 
-.footer{
-	/*position: absolute;
-	bottom: 0;*/
-	margin-top: 84%;
+.port {
+	position: absolute;
+	left: 51%;
+	top: 36%;
+}
+
+#portrait{
+	width: 90%;
+	height: auto;
+}
+
+footer{
+	position: absolute;
+	top: 92%;
 	font-family: futura-pt, sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -162,10 +101,35 @@ a:active {
 }
 
 hr {
-/*	position: absolute;
-	top: 121%;*/
-/*	margin-top: 94%;*/
-/*	width: 78%;*/
-	margin-right: 12%;
+	position: absolute;
+	top: 91%;
+	width: 78%;
 	border-width: 0.5px;
+}
+
+.intro {
+	position: absolute;
+	top: 27%;
+	font-family: futura-pt, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 14pt;
+
+}
+
+.intro p {
+	text-indent: 5%;
+	width: 40%;
+}
+
+#head {
+	font-family: futura-pt, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 23px;
+}
+
+#email {
+	font-size: 11pt;
+	text-indent: 0%;
 }
