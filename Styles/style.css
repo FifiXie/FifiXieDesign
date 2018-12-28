@@ -2,7 +2,7 @@
 body{
 	margin-top: 1%;
 	margin-bottom: 1%;
-	margin-left: 7.5%;
+	margin-left: 10%;
 	/*margin-right: 7.5%;*/
 }
 
@@ -13,8 +13,8 @@ body{
 
 .Name {
 	position: absolute;
-	left: 7.5%;
-	top: 6%;
+	left: 10%;
+	top: 5%;
 	font-family: hypatia-sans-pro, sans-serif;
 	font-weight: 700;
 	font-style: normal;
