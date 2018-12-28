@@ -87,6 +87,7 @@ li {
 	ul.menuList{
 	display: flex;
 	flex-direction: column;
+	padding-right: 7%;
 	}
 
 	#item1{
