@@ -83,6 +83,24 @@ li {
 	height: auto;
 }
 
+#item4{
+	margin: 1.5% 1.5% 0 0;
+	width: 28%;
+	height: auto;
+}
+
+#item5{ 
+	margin: 1.5% 1.5% 0 0;
+	width: 28%;
+	height: auto;
+}
+
+#item6{
+	margin: 1.5% 0 0 0;
+	width: 28%;
+	height: auto;
+}
+
 @media screen and (max-width: 500px) {
 	ul.menuList{
 	display: flex;
@@ -103,6 +121,25 @@ li {
 	}	
 
 	#item3{
+	margin: 1.2% 0 0 7.5%;
+	width: 80%;
+	height: auto;
+	}
+
+
+	#item4{
+	margin: 1.2% 0 0 7.5%;
+	width: 80%;
+	height: auto;
+	}
+
+	#item5{ 
+	margin: 1.2% 0 0 7.5%;
+	width: 80%;
+	height: auto;
+	}	
+
+	#item6{
 	margin: 1.2% 0 0 7.5%;
 	width: 80%;
 	height: auto;
@@ -181,7 +218,7 @@ a:active {
 .footer{
 	/*position: absolute;
 	bottom: 0;*/
-	margin-top: 84%;
+	margin-top: 112%;
 	font-family: futura-pt, sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -196,3 +233,7 @@ hr {
 	margin-right: 12%;
 	border-width: 0.5px;
 }
+
+/*.spacer{
+	margin-top: 
+}*/
