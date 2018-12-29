@@ -72,6 +72,35 @@ a:active {
   font-style: normal;
 }
 
+
+.Name a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.Name a:visited {
+	color: black;
+}
+
+/* mouse over link */
+.Name a:hover {
+  color:rgb(255,87,69);
+  text-decoration: underline;
+  font-family: hypatia-sans-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* selected link */
+.Name a:active {
+  color: rgb(255,87,69);
+  text-decoration: underline;
+  font-family: hypatia-sans-pro, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
 @media screen and (max-width: 500px) {
 	ul.menuList{
 	display: flex;
