@@ -233,3 +233,28 @@ hr {
 #email a{
 	text-decoration: underline;
 }
+
+#emailM {
+	font-size: 12pt;
+	text-indent: 0%;
+}
+
+#emailM a{
+	text-decoration: underline;
+}
+#res {
+	font-size: 12pt;
+	text-indent: 0%;
+}
+
+#res a{
+	text-decoration: underline;
+}
+#resM {
+	font-size: 12pt;
+	text-indent: 0%;
+}
+
+#resM a{
+	text-decoration: underline;
+}
