@@ -108,13 +108,22 @@ a:active {
 	padding-right: 7%;
 	}
 
-	.footer{
+	footer{
 		visibility: hidden;
 	}
 
-	#portrait {
+	hr {
+		visibility: hidden;
+	}
+
+	.port {
 		position: relative;
 		top: 15%;
+	}
+
+	.intro {
+		position: relative;
+		width: 80%;
 	}
 }
 
