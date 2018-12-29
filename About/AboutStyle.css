@@ -117,15 +117,48 @@ a:active {
 	}
 
 	.port {
-		position: relative;
-		top: 15%;
+		visibility:hidden;
 	}
 
 	.intro {
-		position: relative;
+		visibility: hidden;
+	}
+
+	.portMobile {
+		visibility: visible;
+		position: absolute;
+		top: 30%;
+		left: auto;
+	}
+
+	#portraitMobile {
+		width: 80%;
+		height: auto;
+	}
+
+	.introMobile{
+		visibility: visible;
+		position: absolute;
+		top: 54%;
+		left: auto;
+	}
+
+	.introMobile p{
 		width: 80%;
 	}
 }
+
+
+
+@media screen and (min-width:500px) {
+	.portMobile{
+		visibility: hidden;
+	}
+	.introMobile{
+		visibility: hidden;
+	}
+}
+
 
 .port {
 	position: absolute;
@@ -164,10 +197,23 @@ hr {
 
 }
 
+
+.introMobile{
+	font-family: futura-pt, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 14pt;
+}
+
 .intro p {
 	text-indent: 5%;
 	width: 40%;
 }
+
+.introMobile p {
+	text-indent: 5%;
+}
+
 
 #head {
 	font-family: futura-pt, sans-serif;
