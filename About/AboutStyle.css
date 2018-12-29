@@ -107,6 +107,15 @@ a:active {
 	flex-direction: column;
 	padding-right: 7%;
 	}
+
+	.footer{
+		visibility: hidden;
+	}
+
+	#portrait {
+		position: relative;
+		top: 15%;
+	}
 }
 
 .port {
