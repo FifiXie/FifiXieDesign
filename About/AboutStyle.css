@@ -1,169 +1,61 @@
 body{
-	margin-top: 1%;
-	margin-bottom: 1%;
-	margin-left: 10%;
-	/*margin-right: 7.5%;*/
-}
-
-.Parent {
-	/*padding-right: 7.5%;*/
+	background-color: #fbf6f3;
 }
 
 
-.Name {
+
+#logo {
+
 	position: absolute;
-	left: 10%;
-	top: 5%;
-	font-family: hypatia-sans-pro, sans-serif;
+	top: -2%;
+	left: 40%;
+	font-family: itc-galliard, serif;
 	font-weight: 700;
 	font-style: normal;
-	font-size: 30pt;
+	color: #ff5745;
+	font-size: 32pt;
+	text-decoration: none;
+	width: 240px;
 }
+
+a {
+	text-decoration: none;
+}
+
 
 .Menu {
 	/*margin-right: 7.5%;*/
 	position: absolute;
-	left: 80%;
-	top:11%;
+	left: 43%;
+	top:10%;
 }
 
 .menuList {
-
+	text-align: center;
+    display:inline;
 	list-style-type: none;
-	position: absolute;
-	padding: 25% 17%;
-	font-family: futura-pt, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 14pt;
-	display: flex;
-	flex-direction: row;
+	font-family: hypatia-sans-pro, sans-serif;
+	font-weight: 700;
+	font-size: 13pt;
+
 
 }
 
-li {
-		margin: 9%;
+.menuList li {
+	text-decoration: none;
+	margin-bottom: 15px;
+	width: 160px;
 }
 
-a:link {
-  color: black;
-  text-decoration: none;
-}
-
-a:visited {
-	color: black;
-}
-
-/* mouse over link */
-a:hover {
-  color:rgb(255,87,69);
-  text-decoration: underline;
-  font-family: futura-pt, sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-/* selected link */
-a:active {
-  color: rgb(255,87,69);
-  text-decoration: underline;
-  font-family: futura-pt, sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-
-.Name a:link {
-  color: black;
-  text-decoration: none;
-}
-
-.Name a:visited {
-	color: black;
-}
-
-/* mouse over link */
-.Name a:hover {
-  color:rgb(255,87,69);
-  text-decoration: underline;
-  font-family: hypatia-sans-pro, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-/* selected link */
-.Name a:active {
-  color: rgb(255,87,69);
-  text-decoration: underline;
-  font-family: hypatia-sans-pro, sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-
-@media screen and (max-width: 500px) {
-	ul.menuList{
-	display: flex;
-	flex-direction: column;
-	padding-right: 7%;
-	}
-
-/*	.footer{
-		visibility: hidden;
-	}
-
-	hr {
-		visibility: hidden;
-	}*/
-
-	.port {
-		visibility:hidden;
-	}
-
-	.intro {
-		visibility: hidden;
-	}
-
-	.portMobile {
-		visibility: visible;
-		position: absolute;
-		top: 30%;
-		left: auto;
-	}
-
-	#portraitMobile {
-		width: 80%;
-		height: auto;
-	}
-
-	.introMobile{
-		visibility: visible;
-		position: absolute;
-		top: 54%;
-		left: auto;
-	}
-
-	.introMobile p{
-		width: 80%;
-	}
-}
-
-
-
-@media screen and (min-width:500px) {
-	.portMobile{
-		visibility: hidden;
-	}
-	.introMobile{
-		visibility: hidden;
-	}
+.menuList a {
+	color: #ffc800;
 }
 
 
 .port {
 	position: absolute;
 	left: 51%;
-	top: 36%;
+	top: 41%;
 }
 
 #portrait{
@@ -171,32 +63,15 @@ a:active {
 	height: auto;
 }
 
-/*.footer{
-	position: absolute;
-	bottom: 0;
-	margin-top: 11%;
-	font-family: futura-pt, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 12pt;
-}
 
-hr {
-	position: absolute;
-	top: 121%;
-	margin-top: 94%;
-	width: 78%;
-	margin-right: 12%;
-	border-width: 0.5px;
-}*/
 
 .intro {
 	position: absolute;
-	top: 27%;
-	font-family: futura-pt, sans-serif;
-	font-weight: 300;
-	font-style: normal;
-	font-size: 14pt;
+	left: 10%;
+	top: 28%;
+	font-family: hypatia-sans-pro, sans-serif;
+	font-weight: 500;
+	font-size: 12pt;
 
 }
 
@@ -219,23 +94,27 @@ hr {
 
 
 #head {
-	font-family: futura-pt, sans-serif;
-	font-weight: 600;
+	font-family: itc-galliard, serif;
+	font-weight: 700;
 	font-style: normal;
-	font-size: 23px;
+	font-size: 23pt;
+	color: #1919c8;
+/*	color: #005745;*/
 }
 
 #email {
-	font-size: 12pt;
+	font-size: 10pt;
 	text-indent: 0%;
 }
 
 #email a{
+	font-weight: 600;
 	text-decoration: underline;
+	color: black;
 }
 
 #emailM {
-	font-size: 12pt;
+	font-size: 10pt;
 	text-indent: 0%;
 }
 
@@ -243,15 +122,17 @@ hr {
 	text-decoration: underline;
 }
 #res {
-	font-size: 12pt;
+	font-size: 10pt;
 	text-indent: 0%;
 }
 
 #res a{
+	font-weight: 600;
+	color: black; 
 	text-decoration: underline;
 }
 #resM {
-	font-size: 12pt;
+	font-size: 10pt;
 	text-indent: 0%;
 }
 
