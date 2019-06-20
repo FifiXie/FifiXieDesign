@@ -4,9 +4,8 @@ body{
 
 
 #logo {
-
-	position: absolute;
-	top: -2%;
+/*	margin-top: -1px;*/
+	position: relative;
 	left: 40%;
 	font-family: itc-galliard, serif;
 	font-weight: 700;
@@ -23,21 +22,23 @@ a {
 
 
 .landingimg {
-	position: absolute;
-	left: 38%;
-	top: 28%;
+	position: relative;
+	left: 36%;
+	top: 32%;
+	width: 36%;
 }
 
 #intro {
-	width: 56%;
+	width: 81%;
 	height: auto;
 }
 
 .Menu {
-	/*margin-right: 7.5%;*/
-	position: absolute;
+	margin-top: -3%;
+	position: relative;
 	left: 43%;
-	top:10%;
+/*	top:-5%;*/
+	width: 200px;
 }
 
 .menuList {
@@ -71,8 +72,9 @@ a {
 }*/
 
 #canvas{
-	position: absolute;
+	position: relative;
 	top:56%;
-	left: 36%;
+	left: 45%;
+/*	width: : 30%;*/
 /*	background-color: #fbf6f3;*/
 }

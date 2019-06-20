@@ -246,8 +246,8 @@
 	// ---- canvas ----
 	var screen = document.getElementById("canvas"),
 		ctx = screen.getContext("2d");
-		screen.width = window.innerWidth*0.54;
-		screen.height = window.innerHeight*0.42;
+		screen.width = window.innerWidth*0.49;
+		screen.height = window.innerHeight*0.36;
 
 	// ---- create LavaLamps ----
 	lava0 = new LavaLamp(screen.width, screen.height, 5, "#48b2e3", "#1919c8");

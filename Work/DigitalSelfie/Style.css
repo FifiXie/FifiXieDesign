@@ -4,8 +4,7 @@ body{
 
 #logo {
 
-	position: absolute;
-	top: -2%;
+	position: relative;
 	left: 40%;
 	font-family: itc-galliard, serif;
 	font-weight: 700;
@@ -22,10 +21,11 @@ a {
 
 
 .Menu {
-	/*margin-right: 7.5%;*/
-	position: absolute;
+margin-top: -3%;
+	position: relative;
 	left: 43%;
-	top:10%;
+/*	top:-5%;*/
+	width: 200px;
 }
 
 .menuList {
@@ -50,7 +50,7 @@ a {
 }
 
 .Header {
-	position: absolute;
+	position: relative;
 	left: 10%;
 	top: 24%;
 	font-family: itc-galliard, serif;
@@ -58,17 +58,19 @@ a {
 	font-style: normal;
 	font-size: 23pt;
 	color: #1919c8;
+	width: 200px;
 /*	color: #005745;*/
 }
 
 .cont{
-	position: absolute;
-	left: 20%;
+	position: relative;
+	left: 18%;
 	top: 40%;
 	font-family: hypatia-sans-pro, sans-serif;
 	font-weight: 600;
 	font-size: 13pt;
 	text-indent: 5%;
+	width: 81%;
 	
 }
 
@@ -86,10 +88,10 @@ a {
 
 .des {
 	margin-top: 12%;
-	margin-left: 10%;
+	margin-left: 11%;
 	font-weight: 500;
 	font-size: 12pt;
-		width: 55%;
+	width: 55%;
 
 }
 
@@ -98,7 +100,7 @@ a {
 .gallery {
 	text-indent: 0%;
 	margin-top: 5%;
-	margin-left: -10%;
+	margin-left: 1%;
 }
 
 .gallery img{
@@ -135,8 +137,6 @@ a {
 }
 
 .open  {
-	margin-left:-3%;
-	margin-top:-1%;
 	width: 32%;
 	position: relative;
 	z-index: 2;
@@ -150,15 +150,15 @@ a {
 
 .proto1 {
 	width: 45%;
-	margin-left: 18%;
+	margin-left: 12%;
 	margin-top: -17%;
 }
 
 #proto1des {
 	text-indent: 0;
 	margin-top: 21%;
-	margin-left: 60%;
-	width: 28%;
+	margin-left: 50%;
+	width: 30%;
 	position: relative;
 	z-index: 2;
 }
