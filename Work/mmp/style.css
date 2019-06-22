@@ -121,6 +121,7 @@ a {
 .des{
 	margin-top: -15%;
 	width: 81%;
+
 }
 
 .ins{
@@ -149,16 +150,17 @@ a {
 	width: 52%;
 	margin-top: -24%;
 	margin-left: 52%;
+	margin-bottom: 10%;
 }
 
 .res{
 	margin-left: 2%;
-	width: 60%;
+	width: 69%;
 }
 
 .write img{
 /*	margin-top: 3%;*/
-	width: 63%;
+	width: 70%;
 }
 
 .pics{
@@ -180,12 +182,17 @@ a {
 	width: 40%;
 }
 
-.q{
-	width: 72%;
-	margin: 12% 0% 0% 16%;
+.q{	
+	font-weight: 500;
+	width: 81%;
+	margin: 12% 0% 0% 9%;
 }
 
 .write {
 	width: 89%;
-	margin-left: 4%;
+	margin-left: 5%;
 }
+
+.p1{
+	font-weight: 500;
+	}
