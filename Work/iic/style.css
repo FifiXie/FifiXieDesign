@@ -57,7 +57,7 @@ a {
 	font-style: normal;
 	font-size: 23pt;
 	color: #1919c8;
-	width: 100px;
+	width: 30%;
 }
 
 .footer {
@@ -85,4 +85,31 @@ a {
 #myBtn:hover {
 	border: 2px solid #ff5745;
 	color: #ff5745; 
+}
+
+
+#text {
+	display: inline-block;
+	vertical-align: middle;
+	color: #1919c8;
+	letter-spacing: 2px;
+}
+
+
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 27px;
+	background-color: #1919c8;
+	animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: #1919c8; 
+	}
 }

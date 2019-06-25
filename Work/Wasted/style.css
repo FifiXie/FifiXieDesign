@@ -20,7 +20,7 @@ a {
 
 
 .Menu {
-margin-top: -3%;
+	margin-top: -3%;
 	position: relative;
 	left: 43%;
 /*	top:-5%;*/
@@ -57,7 +57,7 @@ margin-top: -3%;
 	font-style: normal;
 	font-size: 23pt;
 	color: #1919c8;
-	width: 35%;
+	width: 30%;
 /*	color: #005745;*/
 }
 
@@ -87,6 +87,76 @@ margin-top: -3%;
 	border: 2px solid #ff5745;
 	color: #ff5745; 
 }
+
+.cont {
+	position: relative;
+	left: 18%;
+	top: 40%;
+	font-family: hypatia-sans-pro, sans-serif;
+	font-weight: 600;
+	font-size: 13pt;
+	text-indent: 5%;
+	width: 81%;
+}
+
+.intro{
+	width: 54%;
+	margin-top: 5%;
+}
+
+.cont img {
+	width: 78%;
+	margin-top: 7%;
+	margin-left: 2%;
+}
+
+.mySlides {display:none;}
+
+.gallery {
+	margin-top: 9%;
+	margin-left: 12%;
+	width: 63%;
+	text-indent: none;
+}
+
+.left{
+	border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap;
+	color:#fff!important;background-color:#000!important;
+	position: relative;
+	margin-top: -70%;
+	z-index: 5;
+}
+
+.right{
+	border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap;
+	color:#fff!important;background-color:#000!important;
+	position: relative;
+	margin-top: -70%;
+	margin-left:70%;
+
+}
+
+
+.state{
+	width: 58%;
+	margin-left: 9%;
+	margin-top: 3%;
+
+}
+#tit{
+	font-family: itc-galliard, serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 18pt;
+	color: #1919c8;
+}
+
+.state p{
+	font-weight: 500;
+	font-size: 16px;
+}
+
+
 
 #text {
 	display: inline-block;
