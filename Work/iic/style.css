@@ -113,3 +113,16 @@ a {
 		background-color: #1919c8; 
 	}
 }
+
+.cont {
+	font-family: hypatia-sans-pro, sans-serif;
+	font-weight: 600;
+	font-size: 13pt;
+	text-indent: 5%;
+	width: 81%;
+}
+
+#sub{
+		position: relative;
+	left: 10%;
+}

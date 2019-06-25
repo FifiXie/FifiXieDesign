@@ -6,8 +6,7 @@ body{
 
 #logo {
 
-	position: absolute;
-	top: -2%;
+	position: relative;
 	left: 40%;
 	font-family: itc-galliard, serif;
 	font-weight: 700;
@@ -25,9 +24,11 @@ a {
 
 .Menu {
 	/*margin-right: 7.5%;*/
-	position: absolute;
+	margin-top: -3%;
+	position: relative;
 	left: 43%;
-	top:10%;
+/*	top:-5%;*/
+	width: 200px;
 }
 
 .menuList {
