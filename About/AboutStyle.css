@@ -54,25 +54,27 @@ a {
 
 
 .port {
-	position: absolute;
-	left: 51%;
-	top: 41%;
+	position: relative;
+	left: 54%;
+	margin-top:6%;
+	width: 39%;
 }
 
-#portrait{
-	width: 90%;
+/*#portrait{
+	width: 39%;
 	height: auto;
 }
-
+*/
 
 
 .intro {
-	position: absolute;
+	position: relative;
 	left: 10%;
-	top: 28%;
+	margin-top: -25%;
 	font-family: hypatia-sans-pro, sans-serif;
 	font-weight: 500;
 	font-size: 12pt;
+	width: 40%;
 
 }
 
@@ -86,7 +88,7 @@ a {
 
 .intro p {
 	text-indent: 5%;
-	width: 40%;
+/*	width: 40%;*/
 }
 
 .introMobile p {
