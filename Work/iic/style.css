@@ -187,3 +187,75 @@ a {
 	padding: 9px 15px;
 
 }
+
+.d{
+	width: 72%;
+	margin-left: 18%;
+}
+
+.d img{
+	width: 72%;
+	margin-left: 45%;
+}
+
+.dp {
+	font-weight: 500;
+	font-size: 16px;
+	width: 40%;
+	position: relative;
+	margin-top: -12%;
+	left: 15%;
+	z-index: 5;
+	background-color:  #fbf6f3;
+	padding: 9px 15px;
+
+}
+
+#dh{
+	font-weight: 500;
+	font-size: 16px;
+	width: 40%;
+/*	margin-left: -2%;*/
+	margin-top: -7%;
+}
+
+#dhp{
+	width: 45%;
+	margin-left: -2%;
+}
+
+
+.f{
+	width: 72%;
+	margin-left: 18%;
+}
+
+.f img{
+	width: 72%;
+	margin-left: 16%;
+}
+
+.fp {
+	font-weight: 500;
+	font-size: 16px;
+	width: 40%;
+	position: relative;
+	margin-top: -6%;
+	left: 24%;
+	z-index: 5;
+	background-color:  #fbf6f3;
+	padding: 9px 15px;
+
+}
+
+#fvp{
+	margin-top: 2%;
+	width: 45%;
+}
+
+#fvp2{
+	width: 60%;
+	position: relative;
+	left: 39%;
+	margin-top:-9%;
+}
