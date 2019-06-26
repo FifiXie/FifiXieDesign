@@ -180,11 +180,10 @@ a {
 	font-size: 16px;
 	width: 40%;
 	position: relative;
-	left: 75%;
-	z-index: 5;
 	margin-top: -12%;
+	left: 78%;
+	z-index: 5;
 	background-color:  #fbf6f3;
-	padding: 12px;
-
+	padding: 9px 15px;
 
 }
