@@ -124,5 +124,67 @@ a {
 
 #sub{
 		position: relative;
-	left: 10%;
+	left: 12%;
+	margin-top: 2%;
+}
+
+.cover{
+	width: 81%;
+	margin-left: 9%;
+	margin-top: 5%;
+}
+
+.cover img {
+	margin-top: 5%;
+	width: 69%;
+	position: relative;
+	left: 45%;
+}
+
+.thin{
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.intro{
+	width: 45%;
+	position: relative;
+	left: 15%;
+	margin-top: -12%;
+	z-index: 5;
+	background-color:  #fbf6f3;
+	padding: 18px;
+
+}
+
+.tit {
+	font-family: itc-galliard, serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 18pt;
+	color: #1919c8;
+}
+
+.a{
+	width: 72%;
+	margin-left: 18%;
+}
+
+.a img{
+	width: 72%;
+	margin-left: 16%;
+}
+
+.ap {
+	font-weight: 500;
+	font-size: 16px;
+	width: 40%;
+	position: relative;
+	left: 75%;
+	z-index: 5;
+	margin-top: -12%;
+	background-color:  #fbf6f3;
+	padding: 12px;
+
+
 }
