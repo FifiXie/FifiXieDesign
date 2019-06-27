@@ -113,3 +113,73 @@ margin-top: -3%;
 		background-color: #1919c8; 
 	}
 }
+
+.cont {
+	font-family: hypatia-sans-pro, sans-serif;
+	font-weight: 600;
+	font-size: 13pt;
+	text-indent: 5%;
+	width: 81%;
+	color: #642E1E;
+}
+
+.tit {
+	font-family: itc-galliard, serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 18pt;
+	color: #1919c8;
+}
+
+#sub{
+		position: relative;
+	left: 12%;
+	margin-top: 2%;
+	color: #D99A9A;
+}
+
+.intro{
+	margin-top: 2%;
+	width: 42%;
+	margin-left: 15%;
+}
+
+.cover{
+	width: 81%;
+}
+
+.cover img{
+	margin-left: 60%;
+	width: 72%;
+}
+
+.grid{
+	margin-top: 10%;
+	text-indent: 0%;
+	margin-left: 12%;
+	width: 100%;
+}
+
+.grid img{
+	border: solid 1px #D99A9A;
+	text-indent: 0%;
+	width: 48%;
+	margin: 2% 1% 1% 0%;
+}
+
+.line{
+	margin-top: 9%;
+	width: 79%;
+	margin-left: 24%;
+}
+
+.gallery{
+	text-indent: 0%;
+	margin-top: 8%;
+	margin-left: 24%;
+	width: 81%;
+}
+
+.mySlides {
+	width: 24%;
+}
