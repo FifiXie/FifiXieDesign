@@ -113,3 +113,44 @@ a {
 		background-color: #1919c8; 
 	}
 }
+
+.cont {
+	font-family: hypatia-sans-pro, sans-serif;
+	font-weight: 600;
+	font-size: 13pt;
+	text-indent: 5%;
+	width: 81%;
+}
+
+.intro{
+	width: 45%;
+	margin-left: 18%;
+	margin-top: 3%;
+}
+
+.tit {
+	text-indent: 0%;
+	font-family: itc-galliard, serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 18pt;
+	color: #1919c8;
+}
+
+.gallery{
+	margin-left: 24%;
+}
+
+.gallery img {
+	width: 48%;
+	margin-left: 1%;
+	margin-top: 1%;
+	border: solid 1px #1919c8;
+}
+
+/*#line {
+	width: %;
+}*/
+.video {
+	margin-left: 4%;
+}
