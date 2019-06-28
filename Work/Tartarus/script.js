@@ -17,7 +17,7 @@ function topFunction() {
 
 // List of sentences
 var _CONTENT = [ 
-	"Tartarus "
+	"Tartarus (Work-in-Progress)"
 ];
 
 // Current sentence being processed
