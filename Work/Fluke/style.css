@@ -113,3 +113,31 @@ a {
 		background-color: #1919c8; 
 	}
 }
+
+.cont {
+	position: relative;
+	left: 18%;
+	top: 40%;
+	font-family: hypatia-sans-pro, sans-serif;
+	font-weight: 600;
+	font-size: 13pt;
+	text-indent: 5%;
+	width: 81%;
+}
+
+.intro {
+	margin-top: 2%;
+	width: 45%;
+	color: #afafb6;
+}
+
+.pics{
+	text-indent: 0%;
+
+}
+
+.pics img {
+	width: 69%;
+	margin-top:2%;
+	margin-left: 5%;
+}
