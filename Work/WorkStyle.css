@@ -222,7 +222,7 @@ a {
 .buttons{
 	width: 60%;
 	margin-top: 2%;
-	margin-left: 18%;
+	margin-left: 20%;
 }
 
 button{
@@ -247,38 +247,5 @@ button:focus {
 
 [data-toggle='off'] {
   display:none;
-}
 
-/*#clear {
-	background-color: #fbf6f3;
-	font-family: hypatia-sans-pro, sans-serif;
-	font-weight: 700;
-	font-size: 13pt;
-	padding: 5px 16px; 
-	border: none;
-	color: #ffc800;
-	border: 3px solid #ffc800;
 }
-
-[data-toggle='rest'] {
-  display:inline;
-}
-
-.showItem {
-    display: list-item;
-}
-.hideItem {
-    display: none;
-}
-
-
-.filterSection li {
-    list-style: none;
-    display: inline;
-}
-
-#itemsToFilter li {
-    list-style: none;
-    display: inline;
-}
-*/

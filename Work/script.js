@@ -60,73 +60,51 @@ function resetFilter (filter) {
 }
 
 
-// get all of our list items
-// var itemsToFilter = document.querySelectorAll("#itemsToFilter li");
-  
-// //setup click event handlers on our checkboxes
-// var checkBoxes = document.querySelectorAll(".filterSection li input");
-  
-// for (var i = 0; i < checkBoxes.length; i++) {
-//     checkBoxes[i].addEventListener("click", filterItems, false);
-//     checkBoxes[i].checked = true;
+//--------------------------------------------------
+// filterSelection("all")
+// function filterSelection(c) {
+//   var x, i;
+//   x = document.getElementsByClassName("filterDiv");
+//   if (c == "all") c = "";
+//   // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+//   for (i = 0; i < x.length; i++) {
+//     w3RemoveClass(x[i], "show");
+//     if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+//   }
 // }
-  
-// // the event handler!
-// function filterItems(e) {
-//     var clickedItem = e.target;
-      
-//     if (clickedItem.checked == true) {
-//         hideOrShowItems(clickedItem.value, "hideItem", "showItem");
-//     } else if (clickedItem.checked == false) {
-//         hideOrShowItems(clickedItem.value, "showItem", "hideItem");
-//     } else {
-//         // deal with the indeterminate state if needed
+
+// // Show filtered elements
+// function w3AddClass(element, name) {
+//   var i, arr1, arr2;
+//   arr1 = element.className.split(" ");
+//   arr2 = name.split(" ");
+//   for (i = 0; i < arr2.length; i++) {
+//     if (arr1.indexOf(arr2[i]) == -1) {
+//       element.className += " " + arr2[i];
 //     }
+//   }
 // }
-  
-// // add or remove classes to show or hide our content
-// function hideOrShowItems(itemType, classToRemove, classToAdd) {
-//     for (var i = 0; i < itemsToFilter.length; i++) {
-//         var currentItem = itemsToFilter[i];
-          
-//         if (currentItem.getAttribute("data-type") == itemType) {
-//             removeClass(currentItem, classToRemove);
-//             addClass(currentItem, classToAdd);
-//         }
+
+// // Hide elements that are not selected
+// function w3RemoveClass(element, name) {
+//   var i, arr1, arr2;
+//   arr1 = element.className.split(" ");
+//   arr2 = name.split(" ");
+//   for (i = 0; i < arr2.length; i++) {
+//     while (arr1.indexOf(arr2[i]) > -1) {
+//       arr1.splice(arr1.indexOf(arr2[i]), 1); 
 //     }
+//   }
+//   element.className = arr1.join(" ");
 // }
-  
-// //
-// // Helper functions for adding and removing class values
-// //
-// function addClass(element, classToAdd) {
-//     var currentClassValue = element.className;
-        
-//     if (currentClassValue.indexOf(classToAdd) == -1) {
-//         if ((currentClassValue == null) || (currentClassValue === "")) {
-//             element.className = classToAdd;
-//         } else {
-//             element.className += " " + classToAdd;
-//         }
-//     }
-// }
-        
-// function removeClass(element, classToRemove) {
-//     var currentClassValue = element.className;
-  
-//     if (currentClassValue == classToRemove) {
-//         element.className = "";
-//         return;
-//     }
-  
-//     var classValues = currentClassValue.split(" ");
-//     var filteredList = [];
-  
-//     for (var i = 0 ; i < classValues.length; i++) {
-//         if (classToRemove != classValues[i]) {
-//             filteredList.push(classValues[i]);
-//         }
-//     }
-  
-//     element.className = filteredList.join(" ");
+
+// // Add active class to the current control button (highlight it)
+// var btnContainer = document.getElementById("btns");
+// var btns = btnContainer.getElementsByClassName("btn");
+// for (var i = 0; i < btns.length; i++) {
+//   btns[i].addEventListener("click", function() {
+//     var current = document.getElementsByClassName("active");
+//     current[0].className = current[0].className.replace(" active", "");
+//     this.className += " active";
+//   });
 // }
