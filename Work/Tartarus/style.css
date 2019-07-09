@@ -126,11 +126,19 @@ a {
 }
 
 .intro {
-	width: 45%;
+	width: 55%;
 }
 
 #res a{
 	font-weight: 900;
 	color: black; 
 	text-decoration: underline;
+}
+
+.tit {
+	font-family: itc-galliard, serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 18pt;
+	color: #1919c8;
 }
