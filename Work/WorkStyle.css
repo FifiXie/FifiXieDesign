@@ -249,3 +249,12 @@ button:focus {
   display:none;
 
 }
+
+.note{
+	margin-top: 1%;
+	font-family: hypatia-sans-pro, sans-serif;
+	font-weight: 400;
+	font-size: 9pt;
+	width: 90%;
+	color: #1919c8;
+}
