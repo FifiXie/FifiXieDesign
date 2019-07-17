@@ -227,3 +227,27 @@ a {
 	width: 95%;
 	margin-left: 2%;
 }
+
+.p3pic{
+	text-indent: 0%;
+	margin-left: 2%;
+}
+
+.p3pic img{
+	width: 95%;
+}
+
+
+
+#paper {
+	margin-top: 5%;
+	font-weight: 900;
+	color: black; 
+	text-decoration: underline;
+}
+
+.end{
+		font-weight: 500;
+		width: 85%;
+		margin-left: 5%;
+}
