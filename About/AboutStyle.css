@@ -6,6 +6,7 @@ body{
 
 #logo {
 
+	padding-top: 1%;
 	position: relative;
 	left: 40%;
 	font-family: itc-galliard, serif;
@@ -21,10 +22,15 @@ a {
 	text-decoration: none;
 }
 
+a:hover{
+	text-decoration: 	underline;	
+	color: #ff5745	;	
+}
+
 
 .Menu {
 	/*margin-right: 7.5%;*/
-	margin-top: -3%;
+	margin-top: 1%;
 	position: relative;
 	left: 43%;
 /*	top:-5%;*/
