@@ -4,8 +4,10 @@
 	<title>Fifi Xie Design</title>
 	<link rel="icon" href="images/favicon.png">
 	<link rel="stylesheet" href="https://use.typekit.net/qxj3jec.css">
-	<link rel="stylesheet" type="text/css" href="Styles/style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
 
@@ -18,7 +20,7 @@
 			<div class = "Menu"> 
 			<ul class="menuList">
 				<li> 
-					<a href="Work/Work.html">Work</a>
+					<a href="#workpage">Work</a>
 				
 				<li> 
 					<a href="About/About.html">About & Contact</a>
@@ -29,15 +31,94 @@
 		<div class="landingimg">
 			<!-- <img id = "intro" src="images/serif3.gif"> -->
 			<p>Hi, it's Fifi. I'm a grad student at Parsons, My work mainly focuses on</p>
-			<div  class = "container">
+			<div  class = "contain">
 			<div id="text"></div><div id="cursor"></div>
 			</div>
 		</div>
+		<br>
+		<br>
+
+		<div id="workpage" class="grid">
+			<br>
+
+			<div class="tz-gallery">
+						
+				<div class="row">
+					
+					<div class="col-sm-6 col-md-4">
+						<a class="mmp" data-tags="ui res" href="Work/mmp/index.html">
+							<img id="item1" src="Work/images/test.png">
+						</a>
+
+					</div>
+
+					<div class="col-sm-6 col-md-4">	
+						<a data-tags="art" href="Work/DigitalSelfie/index.html">
+							<img id="item2" src="Work/images/test.png">
+						</a>
+					</div>
+
+					<div class="col-sm-6 col-md-4">
+						<a data-tags="art" href="Work/Terpischore/index.html">
+							<img id="item4" src="Work/images/test.png">
+						</a>
+					</div>
+
+					<div class="col-sm-6 col-md-4">
+						<a data-tags="ui" href="Work/Fluke/index.html">
+							<img id="item6" src="Work/images/test.png">
+						</a>
+					</div>
+
+					<div class="col-sm-6 col-md-4">
+						<a data-tags="ui" href="Work/Mo/index.html">
+							<img id="item7" src="Work/images/test.png">
+						</a>
+					</div>
+
+					<div class="col-sm-6 col-md-4">
+						<a data-tags="fash" href="Work/Wasted/index.html">
+							<img id="item9" src="Work/images/test.png">
+						</a>
+					</div>
+
+					<div class="col-sm-6 col-md-4">
+						<a data-tags="fash" href="Work/iic/index.html">
+							<img id="item8" src="Work/images/test.png">
+						</a>
+					</div>
+
+					<div class="col-sm-6 col-md-4">
+						<a data-tags="ui res" href="Work/Twizzle/index.html">
+							<img id="item3" src="Work/images/test.png">
+						</a>
+					</div>
+
+					<div class="col-sm-6 col-md-4">
+						<a data-tags="ui res" href="Work/Tartarus/index.html">
+							<img id="item5" src="Work/images/test.png">
+						</a>
+					</div>
+
+				</div>
+			</div>
 
 
-			<canvas id="canvas" ></canvas>
+<!-- 			<canvas id="canvas" ></canvas> -->
 		
 	</div>
-<script type="text/javascript" src="Scripts/script.js" ></script>
+
+	<div class= "footer">
+			<br>
+			<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+			<br>
+			<br>
+	</div>
+
+<script type="text/javascript" src="script.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
 </body>
 </html>
