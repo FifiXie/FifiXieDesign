@@ -1,10 +1,15 @@
-.Body{
+body{
+	background-color: #fbf6f3 !important;
+}
+
+.Full{
+
 	background-color: #fbf6f3;
 }
 
 
 #logo {
-/*	margin-top: -1px;*/
+	padding-top: 2%;
 	position: relative;
 	left: 42%;
 	font-family: itc-galliard, serif;
@@ -18,11 +23,11 @@
 
 
 
-.Body a {
+.Full a {
 	text-decoration: none;
 }
 
-.Body a:hover{
+.Full a:hover{
 	text-decoration: 	underline;	
 	color: #ff5745	;	
 }
@@ -30,7 +35,7 @@
 .landingimg {
 	position: relative;
 	left: 39%;
-	/*margin-top: -2%;*/
+	margin-top: 1%;
 /*	top: 10%;*/
 	width: 350px;
 	font-family: hypatia-sans-pro, sans-serif;
@@ -44,7 +49,7 @@
 }
 
 .Menu {
-	/*margin-top: -3%;*/
+	margin-top: 2%;
 	position: relative;
 	left: 45%;
 /*	top:-5%;*/
@@ -126,7 +131,7 @@
 	}
 }
 
-.grid {
+.gridlay {
 
     min-height: 100vh;
     border-radius: 20px;
@@ -134,7 +139,7 @@
 */
 }
 
-.grid img{
+.gridlay img{
 	width: 90%;
 	height: auto;
 /*	margin-top: 3%;
@@ -274,26 +279,26 @@
    
 }
 
-.tz-gallery .lightbox img {
+/*.tz-gallery .lightbox img {
     width: 100%;
     margin-bottom: 30px;
     transition: 0.2s ease-in-out;
     box-shadow: 0 2px 3px rgba(0,0,0,0.2);
-}
+}*/
 
 
-.tz-gallery .lightbox img:hover {
+/*.tz-gallery .lightbox img:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 15px rgba(0,0,0,0.3);
-}
+}*/
 
 .tz-gallery img {
     border-radius: 4px;
 }
 
-.baguetteBox-button {
+/*.baguetteBox-button {
     background-color: transparent;	 !important;
-}
+}*/
 
 
 @media(max-width: 768px) {
