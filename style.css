@@ -8,10 +8,16 @@ body{
 }
 
 
+.align{
+/*	display: block;*/
+	margin: auto;
+	vertical-align: middle;
+	width: 300px;
+}
+
 #logo {
 	padding-top: 2%;
-	position: relative;
-	left: 42%;
+	margin:auto; 
 	font-family: itc-galliard, serif;
 	font-weight: 700;
 	font-style: normal;
@@ -33,9 +39,11 @@ body{
 }
 
 .landingimg {
-	position: relative;
-	left: 39%;
+/*	position: relative;
+	left: 39%;*/
 	margin-top: 1%;
+	margin-left: auto;
+	margin-right: auto;
 /*	top: 10%;*/
 	width: 350px;
 	font-family: hypatia-sans-pro, sans-serif;
@@ -43,15 +51,14 @@ body{
 	font-size: 23pt;
 }
 
-#intro {
-	width: 81%;
-	height: auto;
-}
+
 
 .Menu {
 	margin-top: 2%;
-	position: relative;
-	left: 45%;
+	margin-left: auto;
+	margin-right: auto;
+/*	position: relative;
+	left: 45%;*/
 /*	top:-5%;*/
 	width: 200px;
 }
