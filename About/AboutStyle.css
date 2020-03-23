@@ -6,6 +6,7 @@ body{
 .align{
 /*	display: block;*/
 	margin: auto;
+	margin-top: 2%;
 	vertical-align: middle;
 	width: 300px;
 }
