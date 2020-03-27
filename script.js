@@ -17,7 +17,8 @@ function topFunction() {
 
 
 var _CONTENT = [ 
-	" Human Interaction ",
+	" Human-Computer Interaction ",
+	"Experience Design",
 	" Machine Ethics ",
 	" Industrial Design "
 ];

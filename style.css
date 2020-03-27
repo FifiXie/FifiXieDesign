@@ -38,9 +38,9 @@ body{
 	margin-top: 3%;
 	margin-left: auto;
 	margin-right: auto;
-	color: #6e6e6e; 
+	color: #969696; 
 	text-align: center;
-	width: 400px;
+	width: 48%;
 	font-family: 'Rubik', sans-serif;
 	font-weight: 400;
 	font-size: 18pt;
@@ -90,7 +90,7 @@ body{
 	font-family: 'Rubik', sans-serif;
 	font-weight: 500;
 	font-size: 18pt;
-	width: 	400px;
+	width: 100%;
 }
 
 #text {
