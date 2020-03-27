@@ -106,7 +106,7 @@ mark{
 	font-family: 'Rubik', sans-serif;
 	font-weight: 500;
 	font-style: normal;
-	font-size: 23pt;
+	font-size: 20pt;
 	color: #1919c8;
 	width: 90%;
 /*	color: #005745;*/
@@ -148,7 +148,7 @@ mark{
 	display: inline-block;
 	vertical-align: middle;
 	width: 3px;
-	height: 27px;
+	height: 23px;
 	background-color: #1919c8;
 	animation: blink .75s step-end infinite;
 }
