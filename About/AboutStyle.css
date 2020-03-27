@@ -1,54 +1,55 @@
 body{
-	background-color: #fbf6f3;
+	font-variant-ligatures: no-common-ligatures;
 }
 
+mark{
+	background-color: #bed6e1;
+	color: #6e6e6e; 
+}
 
 .align{
 /*	display: block;*/
 	margin: auto;
 	margin-top: 2%;
-	vertical-align: middle;
+/*	vertical-align: middle !important;*/
 	width: 300px;
 }
 
-
 #logo {
-
-	padding-top: 1%;
-	margin: auto;
-	font-family: itc-galliard, serif;
-	font-weight: 700;
+	padding-top: 2%;
+	margin:auto; 
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
 	font-style: normal;
-	color: #ff5745;
+	color: #1919c8;
 	font-size: 32pt;
 	text-decoration: none;
 	width: 240px;
 }
 
-a {
+
+
+.Parent a {
 	text-decoration: none;
 }
 
-a:hover{
+.Parent a:hover{
 	text-decoration: 	underline;	
-	color: #ff5745	;	
+	color: #bed6e1;	
 }
 
-
 .Menu {
-	/*margin-right: 7.5%;*/
-	margin-top: 1%;
-	margin-left: auto;
-	margin-right: auto;
+	margin-top: 2%;
+	margin: auto;
 	width: 200px;
 }
 
 .menuList {
-	text-align: center;
+	text-align:center;
     display:inline;
 	list-style-type: none;
-	font-family: hypatia-sans-pro, sans-serif;
-	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
 	font-size: 13pt;
 
 
@@ -61,7 +62,7 @@ a:hover{
 }
 
 .menuList a {
-	color: #ffc800;
+	color: #bed6e1;
 }
 
 
@@ -81,80 +82,59 @@ a:hover{
 
 .intro {
 	position: relative;
+	color: #6e6e6e; 
 	left: 10%;
 	margin-top: -25%;
-	font-family: hypatia-sans-pro, sans-serif;
-	font-weight: 500;
+	font-family: 'Rubik', sans-serif;
 	font-size: 12pt;
 	width: 40%;
 
 }
 
 
-.introMobile{
-	font-family: futura-pt, sans-serif;
-	font-weight: 300;
-	font-style: normal;
-	font-size: 14pt;
-}
+
 
 .intro p {
 	text-indent: 5%;
 /*	width: 40%;*/
 }
 
-.introMobile p {
-	text-indent: 5%;
-}
+
 
 
 .head {
-	font-family: itc-galliard, serif;
-	font-weight: 700;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
 	font-style: normal;
 	font-size: 23pt;
 	color: #1919c8;
-	width: 30%;
+	width: 90%;
 /*	color: #005745;*/
 }
 
 #email {
-	font-size: 10pt;
+	font-size: 11pt;
 	text-indent: 0%;
 }
 
 #email a{
-	font-weight: 600;
+	font-weight: 500;
 	text-decoration: underline;
-	color: black;
-}
+    color:#bed6e1;
+ }
 
-#emailM {
-	font-size: 10pt;
-	text-indent: 0%;
-}
 
-#emailM a{
-	text-decoration: underline;
-}
 #res {
-	font-size: 10pt;
+	font-size: 11pt;
 	text-indent: 0%;
 }
 
 #res a{
-	font-weight: 600;
-	color: black; 
+	font-weight: 500;
+    color: #bed6e1;
 	text-decoration: underline;
-}
-#resM {
-	font-size: 10pt;
-	text-indent: 0%;
 }
 
-#resM a{
-	text-decoration: underline;
-}
 
 #text {
 	display: inline-block;
