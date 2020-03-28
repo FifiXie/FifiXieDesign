@@ -4,7 +4,7 @@ body{
 
 mark{
 	background-color: #bed6e1 !important;
-	color: #6e6e6e !important;
+	/*color: #6e6e6e !important;*/
 }
 
 .align{
@@ -86,6 +86,7 @@ mark{
 	margin-top: -32%;
 	font-family: 'Rubik', sans-serif;
 	font-size: 12pt;
+	font-weight: 300;
 	width: 40%;
 
 }
