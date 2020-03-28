@@ -7,8 +7,8 @@ body{
 /*	display: block;*/
 	margin: auto;
 	margin-top: 2%;
-/*	vertical-align: middle !important;*/
-	width: 300px;
+	vertical-align: middle;
+	width: 80%;
 }
 
 #logo {
@@ -20,7 +20,7 @@ body{
 	color: #1919c8;
 	font-size: 32pt;
 	text-decoration: none;
-	width: 90%;
+	text-align: center;
 }
 
 
