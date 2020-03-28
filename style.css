@@ -13,14 +13,14 @@ body{
 
 #logo {
 	padding-top: 2%;
-	margin:auto; 
+	margin: auto; 
 	font-family: 'Rubik', sans-serif;
 	font-weight: 500;
 	font-style: normal;
 	color: #1919c8;
 	font-size: 32pt;
 	text-decoration: none;
-	width: 240px;
+	width: 69%;
 }
 
 
@@ -40,7 +40,7 @@ body{
 	margin-right: auto;
 	color: #969696; 
 	text-align: center;
-	width: 48%;
+	width: 49%;
 	font-family: 'Rubik', sans-serif;
 	font-weight: 400;
 	font-size: 18pt;
@@ -52,24 +52,25 @@ body{
 .Menu {
 	margin-top: 2%;
 	margin: auto;
-	width: 200px;
+	vertical-align: middle;
+	width: 60%;
+
+
 }
 
 .menuList {
+	margin: auto;
+	list-style-type: none;
 	text-align:center;
     display:inline;
-	list-style-type: none;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
 	font-size: 13pt;
-
-
 }
 
 .menuList li {
+	margin: auto;
 	text-decoration: none;
-	margin-bottom: 15px;
-	width: 160px;
 }
 
 .menuList a {

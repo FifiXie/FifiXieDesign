@@ -17,16 +17,15 @@ mark{
 
 #logo {
 	padding-top: 2%;
-	margin:auto; 
+	margin: auto; 
 	font-family: 'Rubik', sans-serif;
 	font-weight: 500;
 	font-style: normal;
 	color: #1919c8;
 	font-size: 32pt;
 	text-decoration: none;
-	width: 240px;
+	width: 69%;
 }
-
 
 
 .Parent a {
@@ -41,24 +40,25 @@ mark{
 .Menu {
 	margin-top: 2%;
 	margin: auto;
-	width: 200px;
+	vertical-align: middle;
+	width: 60%;
+
+
 }
 
 .menuList {
+	margin: auto;
+	list-style-type: none;
 	text-align:center;
     display:inline;
-	list-style-type: none;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
 	font-size: 13pt;
-
-
 }
 
 .menuList li {
+	margin: auto;
 	text-decoration: none;
-	margin-bottom: 15px;
-	width: 160px;
 }
 
 .menuList a {
@@ -69,7 +69,7 @@ mark{
 .port {
 	position: relative;
 	left: 54%;
-	margin-top:6%;
+	margin-top:9%;
 	width: 39%;
 }
 
@@ -160,4 +160,42 @@ mark{
 	50% { 
 		background-color: #1919c8; 
 	}
+}
+
+
+@media (max-width: 576px) {
+ .port{
+ 	display: none;
+ }
+
+ .intro{
+ 	position: none;
+/* 	left: auto;*/
+ 	margin-top: 10%;
+ 	width: 83%;
+ }
+
+.head{
+	font-size: 18pt;
+}
+
+}
+
+@media (min-width: 1199.98px) {
+
+.container{
+	width: 80%;
+	margin: auto;
+	vertical-align: middle;
+}
+}
+
+
+@media (min-width: 1800px) {
+
+.container{
+	width: 63%;
+	margin: auto;
+	vertical-align: middle;
+}
 }
