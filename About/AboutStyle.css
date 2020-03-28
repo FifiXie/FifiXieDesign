@@ -106,7 +106,7 @@ mark{
 	font-family: 'Rubik', sans-serif;
 	font-weight: 500;
 	font-style: normal;
-	font-size: 20pt;
+	font-size: 18pt;
 	color: #1919c8;
 	width: 90%;
 /*	color: #005745;*/
@@ -148,7 +148,7 @@ mark{
 	display: inline-block;
 	vertical-align: middle;
 	width: 3px;
-	height: 21px;
+	height: 20px;
 	background-color: #1919c8;
 	animation: blink .75s step-end infinite;
 }
@@ -176,7 +176,7 @@ mark{
  }
 
 .head{
-	font-size: 18pt;
+	font-size: 16pt;
 	margin-bottom: 1%;
 }
 
@@ -188,6 +188,10 @@ mark{
 	width: 80%;
 	margin: auto;
 	vertical-align: middle;
+}
+
+#cursor{
+	height: 18pt;
 }
 }
 
