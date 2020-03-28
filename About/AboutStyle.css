@@ -3,8 +3,8 @@ body{
 }
 
 mark{
-	background-color: #bed6e1;
-	color: #6e6e6e; 
+	background-color: #bed6e1 !important;
+	color: #6e6e6e !important;
 }
 
 .align{
@@ -147,7 +147,7 @@ mark{
 	display: inline-block;
 	vertical-align: middle;
 	width: 3px;
-	height: 23px;
+	height: 21px;
 	background-color: #1919c8;
 	animation: blink .75s step-end infinite;
 }
@@ -176,6 +176,7 @@ mark{
 
 .head{
 	font-size: 18pt;
+	margin-bottom: 1%;
 }
 
 }
