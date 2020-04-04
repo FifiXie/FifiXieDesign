@@ -17,7 +17,7 @@ function topFunction() {
 
 // List of sentences
 var _CONTENT = [ 
-	" M P  "
+	" M P "
 ];
 
 // Current sentence being processed

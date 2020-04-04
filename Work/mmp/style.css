@@ -3,6 +3,13 @@ body{
 }
 
 
+mark{
+	background-color: white !important;
+	color: #bed6e1 !important;
+	font-weight: 400;
+	text-decoration: underline;
+}
+
 
 .align{
 /*	display: block;*/
@@ -62,16 +69,6 @@ body{
 	color: #bed6e1;
 }
 
-.headtitle {
-	margin: auto;
-	font-family: 'Rubik', sans-serif;
-	font-weight: 500;
-	font-style: normal;
-	font-size: 20pt;
-	color: #1919c8;
-	width: 90%;
-/*	color: #005745;*/
-}
 
 .footer {
 	margin:5%;
@@ -102,107 +99,104 @@ body{
 
 .cont {
 	margin: auto;
-	font-family: hypatia-sans-pro, sans-serif;
-	font-weight: 600;
-	font-size: 13pt;
-	text-indent: 5%;
-	width: 81%;
+	color: #969696; 
+	font-family: 'Roboto', sans-serif;
+	font-size: 12pt;
+	font-weight: 300;
+	vertical-align: center;
 }
+
+
+/*------------Content Below--------------*/
+
+.headtitle {
+/*	//margin: auto;*/
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 20pt;
+	color: #1919c8;
+	width: 90%;
+/*	color: #005745;*/
+}
+
+
 
 .intro {
-	width: 45%;
+	width: 42%;
+	margin-bottom: 3%;
 }
 
-#cover{
-	width: 100%;
-	margin: 9% 0% 0% 81%;
+.landing{
+margin: auto;
 }
 
-#land {
-	width: 100%;
-	margin: -18% 0% 60% 0%;
-	position: relative;
-	z-index: 3;
+.landing img{
+	display: block;
+	margin: auto;
+	width: 75%;
 }
 
 
 .des{
-	margin-top: -15%;
+	margin: auto;
 	width: 81%;
 
 }
 
-.ins{
-	width: 54%;
-	margin-left: 2%;
+.vid{
+	
 }
 
+iframe{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	width: 90%;
+}
+
+
 .tit {
-	font-family: itc-galliard, serif;
-	font-weight: 700;
+	font-family: Rubik, serif;
+	font-weight: 500;
 	font-style: normal;
 	font-size: 18pt;
 	color: #1919c8;
 }
 
-.sc{
-	width: 45%;
-	margin-top: 5%;
-	margin-left: 4%;
-}
 
-
-#scDes{
-	font-weight: 500;
-	font-size: 12pt;
-	width: 52%;
-	margin-top: -24%;
-	margin-left: 52%;
-	margin-bottom: 10%;
-}
-
-.res{
-	margin-left: 2%;
-	width: 69%;
-}
 
 .write img{
 /*	margin-top: 3%;*/
-	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 100%;
 }
 
 .pics{
 	margin-left: 10%;
 }
 
-.ra{
-		font-weight: 500;
-	font-size: 12pt;
-	margin-left: 60%;
-	width: 42%;
-}
 
-.em{
-		font-weight: 500;
-	font-size: 12pt;
-	margin-left: 7%;
-	margin-top: -7%;
-	width: 40%;
-}
-
-.q{	
-	font-weight: 500;
-	width: 81%;
-	margin: 12% 0% 0% 9%;
-}
 
 .write {
+	margin:auto;
+	font-family: Roboto, serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 12pt;
 	width: 89%;
-	margin-left: 5%;
+	text-indent: 7%;
 }
 
+
 .p1{
-	font-weight: 500;
+	font-weight: 400;
+	font-size: 14pt;
 	}
 
 #text {
@@ -248,18 +242,22 @@ body{
 
 
 #paper {
-	margin-left: 32%;
-	margin-top: 5%;
-	font-weight: 900;
-	color: black; 
+	width: 90%;
+	font-weight: 700;
+	color: #bed6e1;	
 	text-decoration: underline;
 	font-size: 11pt;
+	margin-top: 1&;
+	margin-bottom: 2%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .end{
-		font-weight: 500;
+		font-weight: 400;
 		width: 85%;
-		margin-left: 5%;
+		margin: auto;
+	
 }
 
 @media (min-width: 1199.98px) {
@@ -279,4 +277,40 @@ body{
 	margin: auto;
 	vertical-align: middle;
 }
+}
+
+@media (max-width: 600px) {
+
+.container{
+	width:90%;
+}
+
+.intro{
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+}
+
+.vid iframe{
+	margin:auto;
+	width: 100%;
+}
+
+.landing img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	width: 100%;
+}
+
+.write{
+	width: 100%;
+}
+
+.des{
+	width: 100%;
+}
+
 }
