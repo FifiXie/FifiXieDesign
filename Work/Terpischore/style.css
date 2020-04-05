@@ -1,65 +1,76 @@
 body{
-	background-color: #fbf6f3;
+	font-variant-ligatures: no-common-ligatures;
+}
+
+
+mark{
+	background-color: white !important;
+	color: #bed6e1 !important;
+	font-weight: 400;
+	text-decoration: underline;
+	font-style: italic;
+	/*text-decoration: underline;*/
+}
+
+
+.align{
+/*	display: block;*/
+	margin: auto;
+	margin-top: 2%;
+	vertical-align: middle;
+	width: 80%;
 }
 
 #logo {
-	position: relative;
-	left: 40%;
-	font-family: itc-galliard, serif;
-	font-weight: 700;
+	padding-top: 2%;
+	margin: auto; 
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
 	font-style: normal;
-	color: #ff5745;
+	color: #1919c8;
 	font-size: 32pt;
 	text-decoration: none;
-	width: 240px;
+	text-align: center;
 }
 
-a {
+
+.parent a {
 	text-decoration: none;
 }
 
+.parent a:hover{
+	text-decoration: 	underline;	
+	color: #bed6e1;	
+}
 
 .Menu {
-	margin-top: -3%;
-	position: relative;
-	left: 43%;
-/*	top:-5%;*/
-	width: 200px;
+	margin-top: 2%;
+	margin: auto;
+	vertical-align: middle;
+	width: 60%;
+
+
 }
 
 .menuList {
-	text-align: center;
-    display:inline;
+	margin: auto;
 	list-style-type: none;
-	font-family: hypatia-sans-pro, sans-serif;
-	font-weight: 700;
+	text-align:center;
+    display:inline;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
 	font-size: 13pt;
-
-
 }
 
 .menuList li {
+	margin-bottom:1%;
 	text-decoration: none;
-	margin-bottom: 15px;
-	width: 160px;
 }
 
 .menuList a {
-	color: #ffc800;
+	color: #bed6e1;
 }
 
-.Header {
-	position: relative;
-	left: 10%;
-	top: 24%;
-	font-family: itc-galliard, serif;
-	font-weight: 700;
-	font-style: normal;
-	font-size: 23pt;
-	color: #1919c8;
-	width: 35%;
-/*	color: #005745;*/
-}
 
 .footer {
 	margin:5%;
@@ -69,24 +80,43 @@ a {
   display: none; 
   position: fixed; 
   bottom: 50px; 
-  right: 30px; 
+  right: 27px; 
   z-index: 99; 
-  border: 2px solid #1919c8;
-  background-color: #fbf6f3;
-  color: #1919c8; 
+  border: 2px solid #bed6e1;
+  color: #bed6e1;
   cursor: pointer; 
-  font-family: itc-galliard, serif;
-  font-weight: 900;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
   font-style: normal;
   padding: 7px 12px; 
   border-radius: 5px;
   font-size: 18px; 
+  background-color: white;
 }
 
 #myBtn:hover {
-	border: 2px solid #ff5745;
-	color: #ff5745; 
+	border: 2px solid #6e6e6e;
+	color: #6e6e6e; 
 }
+
+
+.container{
+	padding-right: 30px !important;
+	padding-left: 30px !important;
+}
+
+
+.headtitle {
+/*	//margin: auto;*/
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 20pt;
+	color: #1919c8;
+	width: 90%;
+/*	color: #005745;*/
+}
+
 
 #text {
 	display: inline-block;
@@ -115,30 +145,32 @@ a {
 }
 
 .cont {
-	font-family: hypatia-sans-pro, sans-serif;
-	font-weight: 600;
-	font-size: 13pt;
-	text-indent: 5%;
-	width: 81%;
+	margin: auto;
+	color: #969696; 
+	font-family: 'Roboto', sans-serif;
+	font-size: 12pt;
+	font-weight: 300;
+	vertical-align: middle;
 }
 
 .intro{
 	width: 45%;
-	margin-left: 18%;
-	margin-top: 3%;
+	margin-bottom: 3%;
 }
 
 .tit {
-	text-indent: 0%;
-	font-family: itc-galliard, serif;
-	font-weight: 700;
+	font-family: Rubik, serif;
+	font-weight: 500;
 	font-style: normal;
 	font-size: 18pt;
 	color: #1919c8;
 }
 
 .gallery{
-	margin-left: 24%;
+	display: block;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .gallery img {
@@ -148,9 +180,95 @@ a {
 	border: solid 1px #1919c8;
 }
 
-/*#line {
-	width: %;
-}*/
-.video {
-	margin-left: 4%;
+.gitlink{
+	width: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+}
+
+.gitlink a{
+	text-decoration: underline;
+	font-weight: 500;
+	font-size: 11pt;
+	color: #bed6e1;	
+}
+
+.gitlink a:hover{
+	text-decoration: 	underline;	
+	color: #bed6e1;	
+}
+
+@media (min-width: 1199.98px) {
+
+.container{
+	width: 80%;
+	margin: auto;
+	vertical-align: middle;
+}
+
+.intro{
+	width: 49%;
+}
+
+}
+
+
+@media (min-width: 1800px) {
+
+.container{
+	width: 63%;
+	margin: auto;
+	vertical-align: middle;
+}
+
+.intro{
+	width: 49%;
+}
+}
+
+@media (max-width: 600px) {
+
+.container{
+	width:90%;
+}
+
+.intro{
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+}
+
+
+
+.gitlink{
+	width: 	100%;
+}
+
+.gitlink a {
+		font-size: 	9pt;
+}
+
+.tit{
+	font-size: 	14pt;
+}
+
+.gallery {
+	display: block;
+	margin: auto;
+	width: 90%;
+}
+
+.gallery img {
+	width: 100%;
+margin-top: 	1%;
+}
+
+}
+
+@media (max-width: 1200px) {
+	.gitlink{
+		width: 	50%;
+
+	}
 }

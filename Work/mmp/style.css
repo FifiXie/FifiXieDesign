@@ -103,7 +103,12 @@ mark{
 	font-family: 'Roboto', sans-serif;
 	font-size: 12pt;
 	font-weight: 300;
-	vertical-align: center;
+	vertical-align: middle;
+}
+
+.container{
+	padding-right: 30px !important;
+	padding-left: 30px !important;
 }
 
 
@@ -123,7 +128,7 @@ mark{
 
 
 .intro {
-	width: 42%;
+	width: 45%;
 	margin-bottom: 3%;
 }
 
@@ -134,7 +139,7 @@ margin: auto;
 .landing img{
 	display: block;
 	margin: auto;
-	width: 75%;
+	width: 81%;
 }
 
 
@@ -241,16 +246,22 @@ iframe{
 
 
 
-#paper {
-	width: 90%;
-	font-weight: 700;
-	color: #bed6e1;	
-	text-decoration: underline;
-	font-size: 11pt;
-	margin-top: 1&;
+.paper {
+	margin-top: 1%;
 	margin-bottom: 2%;
 	margin-left: auto;
 	margin-right: auto;
+		width: 30%;
+	text-decoration: underline;
+	font-size: 11pt;
+	text-align: center;
+
+}
+
+.paper a{
+
+	font-weight: 700;
+	color: #bed6e1;	
 }
 
 .end{
@@ -267,6 +278,11 @@ iframe{
 	margin: auto;
 	vertical-align: middle;
 }
+
+.intro{
+	width: 49%;
+}
+
 }
 
 
@@ -276,6 +292,10 @@ iframe{
 	width: 63%;
 	margin: auto;
 	vertical-align: middle;
+}
+
+.intro{
+	width: 49%;
 }
 }
 
@@ -313,4 +333,23 @@ iframe{
 	width: 100%;
 }
 
+.paper{
+	width: 	100%;
+}
+
+.tit{
+	font-size: 	14pt;
+}
+
+iframe{
+	margin-bottom: 	0%;
+	margin-top: 	0%;
+}
+
+}
+
+@media (max-width: 1200px) {
+	.paper{
+		width: 	50%;
+	}
 }
