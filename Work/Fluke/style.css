@@ -5,7 +5,7 @@ body{
 
 mark{
 	background-color: white !important;
-	color: #bed6e1 !important;
+	color: #ffc800 !important;
 	font-weight: 500;
 	text-decoration: underline;
 	/*text-decoration: underline;*/
@@ -120,7 +120,7 @@ mark{
 #text {
 	display: inline-block;
 	vertical-align: middle;
-	color: #1919c8;
+	color: #ff5745;
 	letter-spacing: 2px;
 }
 
