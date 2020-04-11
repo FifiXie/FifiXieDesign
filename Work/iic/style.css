@@ -167,23 +167,17 @@ mark{
 .cover img {
 	margin-top: 2%;
 	width: 69%;
-	position: relative;
-	left: 45%;
+	margin-left: 47%;
 
 }
 
-.thin{
-	font-weight: 500;
-	font-size: 16px;
-}
+
 
 .intro{
 	width: 45%;
-	position: relative;
-	left: 15%;
 	margin-top: -12%;
 	z-index: 5;
-	background-color:  #fbf6f3;
+	background-color:  white;
 	padding: 18px;
 
 }
@@ -197,30 +191,26 @@ mark{
 }
 
 .a{
-	width: 72%;
-	margin-left: 18%;
+	margin-top: 3%;
+	width: 75%;
 }
 
 .a img{
 	width: 72%;
-	margin-left: 16%;
+	margin-left: 10%;
 }
 
 .ap {
-	font-weight: 300;
-	font-size: 16px;
 	width: 40%;
-	position: relative;
-	margin-top: -12%;
-	left: 78%;
-	z-index: 5;
-	padding: 9px 15px;
+	margin-top: -8%;
+	margin-left: 85%;
 
 }
 
 .d{
 	width: 72%;
-	margin-left: 18%;
+	margin-left: 21%;
+	margin-top: 	3%;
 }
 
 .d img{
@@ -229,20 +219,14 @@ mark{
 }
 
 .dp {
-	font-weight: 300;
-	font-size: 16px;
+
 	width: 40%;
-	position: relative;
 	margin-top: -12%;
-	left: 15%;
-	z-index: 5;
-	padding: 9px 15px;
+	margin-left: 2%;
 
 }
 
 #dh{
-	font-weight: 500;
-	font-size: 16px;
 	width: 40%;
 /*	margin-left: -2%;*/
 	margin-top: -7%;
@@ -256,21 +240,18 @@ mark{
 
 .f{
 	width: 72%;
-	margin-left: 18%;
 }
 
 .f img{
 	width: 72%;
 	margin-left: 16%;
+	margin-top: 	3%;
 }
 
 .fp {
-	font-weight: 300;
-	font-size: 16px;
 	width: 40%;
-	position: relative;
-	margin-top: -6%;
-	left: 24%;
+	margin-top: -12%;
+	margin-left: 15%;
 	z-index: 5;
 	padding: 9px 15px;
 
@@ -283,7 +264,141 @@ mark{
 
 #fvp2{
 	width: 60%;
-	position: relative;
-	left: 39%;
+	margin-left: 54%;
 	margin-top:-9%;
+}
+
+@media (max-width: 1150px) {
+
+.container{
+	width:90%;
+}
+
+.intro{
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	margin-top: 	2%;
+}
+
+#sub{
+	margin-left: auto;	
+	margin-right: 	auto;	
+	margin-top: 2%;
+}
+
+.w {
+	font-weight: 	400;
+}
+
+.cover{
+	width: 90%;
+	margin-left: 	auto;	
+	margin-right: 	auto;	
+	margin-top: 5%;
+}
+
+.cover img {
+	display: 	block;	
+	margin-top: 2%;
+	width: 90%;
+	margin-left: auto;	
+	margin-right: 	auto;	
+
+}
+
+.a{
+	margin-top: 3%;
+	width: 	100%;
+}
+
+.a img{
+	display: 	block;	
+	width: 90%;
+	margin: 	auto;	
+}
+
+.ap {
+	width: 90%;
+	margin-top: 	2%;
+	margin-left: 	auto;	
+	margin-right: 	auto;	
+
+}
+
+.d{
+	width: 100%;
+	margin-left: 	auto;	
+	margin-right: 	auto;	
+	margin-top: 3%;
+}
+
+.d img{
+	display: 	block;	
+	width: 90%;
+	margin-left: auto	;
+	margin-right: 	auto;	
+}
+
+.dp {
+
+	width: 90%;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: 	auto;	
+
+}
+
+#dh{
+	width: 90%;
+	margin-top: 2%;
+	margin-left: 	auto;	
+	margin-right: 	auto;	
+}
+
+#dhp{
+	display: 	block;	
+	width: 90%;
+	margin-left: auto	;
+	margin-right: 	auto;
+	margin-top: 	2%;	
+}
+
+
+.f{
+	width: 90%;
+}
+
+.f img{
+	display: 	block;	
+	width: 90%;
+	margin-left: auto;	
+	margin-right: 	auto;	
+	margin-top: 	3%;
+}
+
+.fp {
+	width: 90%;
+	margin-top: 2%;
+	margin-left: auto	;
+	margin-right: 	auto;	
+
+}
+
+#fvp{
+	display: 	block;	
+	width: 90%;
+	margin-left: auto;	
+	margin-right: 	auto;	
+	margin-top: 	3%;
+}
+
+#fvp2{
+	display: 	block;	
+	width: 90%;
+	margin-left: auto;	
+	margin-right: 	auto;	
+	margin-top: 	3%;
+}
+
 }
