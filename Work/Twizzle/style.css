@@ -165,3 +165,27 @@ mark{
 	font-size: 18pt;
 	color: #1919c8;
 }
+
+
+.land {
+	width: 85%;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.land img {
+	display: block;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+.video {
+	margin-bottom: 4%;
+	margin-top: 1%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
