@@ -131,7 +131,7 @@ mark{
 	vertical-align: middle;
 	width: 3px;
 	height: 27px;
-	background-color: #1919c8;
+	background-color: #D99A9A;
 	animation: blink .75s step-end infinite;
 }
 
@@ -160,7 +160,7 @@ mark{
 	font-weight: 500;
 	font-style: normal;
 	font-size: 18pt;
-	color: #1919c8;
+	color: #D99A9A;
 }
 
 #sub{
