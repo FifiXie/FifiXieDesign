@@ -277,7 +277,7 @@ mark{
 .intro{
 	margin-left: auto;
 	margin-right: auto;
-	width: 95%;
+	width: 100%;
 	margin-top: 	2%;
 }
 
@@ -292,7 +292,7 @@ mark{
 }
 
 .cover{
-	width: 90%;
+	width: 100%;
 	margin-left: 	auto;	
 	margin-right: 	auto;	
 	margin-top: 5%;
@@ -401,4 +401,17 @@ mark{
 	margin-top: 	3%;
 }
 
+}
+
+@media (min-width: 1800px) {
+
+.container{
+	width: 63%;
+	margin: auto;
+	vertical-align: middle;
+}
+
+.intro{
+	width: 47%;
+}
 }
