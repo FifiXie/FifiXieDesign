@@ -239,13 +239,13 @@ body{
 
 #item10{
 
-	background: url('Work/images/Unspoken.png') no-repeat;
+	background: url('Work/images/unspoken.png') no-repeat;
 	background-size: 100%;
 }
 
 #item10:hover {
 	background: visible;
-	background: url('Work/images/Unspoken.jpg') no-repeat;
+	background: url('Work/images/unspoken.jpg') no-repeat;
 	background-size: 100%;
 }
 
