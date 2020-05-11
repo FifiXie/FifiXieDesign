@@ -72,7 +72,13 @@ mark{
 
 
 .footer {
-	margin:5%;
+	margin-top: 2%;
+	font-weight: 400;
+	width: 	200px;
+	margin-left: 	auto;	
+	margin-right: 	auto;	
+	font-size: 	11pt;
+	color: #1919c8;
 }
 
 #myBtn {
@@ -204,7 +210,7 @@ iframe{
 
 .grid6{
 	display: block;
-	margin-top: 10%;
+	margin-top: 5%;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;

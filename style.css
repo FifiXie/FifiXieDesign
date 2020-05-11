@@ -250,8 +250,13 @@ body{
 }
 
 
-.footer {
-	margin:5%;
+
+.footer p{
+	width: 	200px;
+	margin-left: 	auto;	
+	margin-right: 	auto;	
+	font-size: 	11pt;
+	color: #1919c8;
 }
 
 #myBtn {
@@ -305,6 +310,10 @@ body{
     body {
         padding: 0;
     }
+
+/*    .footer p {
+    	width: 	65%;
+    }*/
 
     .grid {
         border-radius: 0;
