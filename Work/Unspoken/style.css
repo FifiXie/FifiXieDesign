@@ -202,7 +202,7 @@ iframe{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 3%;
+	margin-top: 2%;
 	margin-bottom: 2%;
 	width: 90%;
 }
@@ -233,6 +233,10 @@ iframe{
 	vertical-align: middle;
 }
 
+.intro{
+	width: 60%;
+}
+
 }
 
 
@@ -244,12 +248,20 @@ iframe{
 	vertical-align: middle;
 }
 
+.intro{
+/*	margin-left: auto;
+	margin-right: auto;*/
+	margin-top: 3%;
+	width: 95%;
+	font-size: 14pt;
+}
+
 }
 
 @media (max-width: 600px) {
 
 .container{
-	width:90%;
+	width:75%;
 }
 
 .intro{
@@ -277,8 +289,11 @@ iframe{
 	width: 90%;
 }
 
-.vid iframe{
-	margin:auto;
+iframe{
+	margin-top: 0%;
+	margin-bottom: 0%;
+	margin-left: auto;
+	margin-right: auto;
 	width: 100%;
 }
 
