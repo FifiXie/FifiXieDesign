@@ -45,26 +45,32 @@ mark{
 
 .Menu {
 	margin-top: 2%;
-	margin: auto;
 	vertical-align: middle;
-	width: 60%;
-
+	width: 69%;
+	margin-right: auto;
+	margin-left: auto;
 
 }
 
 .menuList {
-	margin: auto;
+
 	list-style-type: none;
 	text-align:center;
     display:inline;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
 	font-size: 13pt;
+
 }
 
 .menuList li {
 	margin-bottom:1%;
 	text-decoration: none;
+	display: inline;
+	text-align: center;
+	margin-left: 9%;
+	margin-right: 9%;
+
 }
 
 .menuList a {
@@ -321,6 +327,19 @@ mark{
 
 .mySlides{
 width: 100%;
+}
+
+}
+
+@media (max-width: 1200px) {
+.menu{
+	width: 90%;
+}
+
+.menuList li{
+	margin-left: 0%;
+	margin-right: 0%;
+	display: block;
 }
 
 }
