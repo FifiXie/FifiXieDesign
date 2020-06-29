@@ -267,7 +267,9 @@ iframe{
 @media (max-width: 600px) {
 
 .container{
-	width:85%;
+	width:90%;
+/*	padding-left: 20px !important;
+	padding-right: 20px !important;*/
 }
 
 .intro{
