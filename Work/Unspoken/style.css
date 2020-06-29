@@ -305,6 +305,12 @@ iframe{
 	width: 100%;
 }
 
+.footer p{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 }
 
 @media (max-width: 1200px) {

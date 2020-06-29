@@ -281,8 +281,6 @@ mark{
 }
 
 
-
-
 .tit{
 	font-size: 	14pt;
 }
@@ -327,6 +325,12 @@ mark{
 
 .mySlides{
 width: 100%;
+}
+
+.footer p{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 }

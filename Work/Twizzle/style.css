@@ -213,3 +213,25 @@ mark{
 	display: block;
 }
 }
+
+@media (max-width: 600px) {
+
+.container{
+	width:90%;
+/*	padding-left: 20px !important;
+	padding-right: 20px !important;*/
+}
+
+.intro{
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	margin-top: 3%;
+}
+
+.footer p{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+}
