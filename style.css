@@ -260,6 +260,18 @@ body{
 	background-size: 100%;
 }
 
+#item11{
+
+	background: url('Work/images/blm.png') no-repeat;
+	background-size: 100%;
+}
+
+#item11:hover {
+	background: visible;
+	background: url('Work/images/blm.jpg') no-repeat;
+	background-size: 100%;
+}
+
 
 
 .footer p{

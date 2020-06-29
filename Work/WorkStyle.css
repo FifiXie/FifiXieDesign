@@ -218,6 +218,18 @@ a {
 	background-size: 100%;
 }
 
+#item10{
+
+	background: url('images/blm.png') no-repeat;
+	background-size: 100%;
+}
+
+#item10:hover {
+	background: visible;
+	background: url('images/blm.jpg') no-repeat;
+	background-size: 100%;
+}
+
 
 .buttons{
 	width: 85%;
