@@ -172,7 +172,7 @@ mark{
 .land {
 	display: block;
 	margin-top: 4%;
-	width: 90%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -182,12 +182,12 @@ mark{
 	margin-top: 1%;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
+	width: 100%;
 }
 
 .pic{
 	margin-top: 3%;
-	width: 80%;
+	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -210,7 +210,7 @@ iframe{
 	margin-right: auto;
 	margin-top: 2%;
 	margin-bottom: 2%;
-	width: 90%;
+	width: 100%;
 }
 
 

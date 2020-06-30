@@ -20,7 +20,7 @@ function topFunction() {
 // console.log (OO);
 
 var _CONTENT = [ 
-	"  Batch Face Blur  "
+	"  Face Blur  "
 ];
 
 // Current sentence being processed

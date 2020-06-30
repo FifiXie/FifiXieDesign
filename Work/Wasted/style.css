@@ -159,20 +159,20 @@ mark{
 	margin: auto;
 	color: #969696; 
 	font-family: 'Roboto', sans-serif;
-	font-size: 12pt;
+	font-size: 14pt;
 	font-weight: 300;
 	vertical-align: middle;
 }
 
 .intro{
-	width: 42%;
+	width: 54%;
 	margin-top: 2%;
 }
 
 .land {
 	display: block;
 	margin-top: 4%;
-	width: 90%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -182,12 +182,12 @@ mark{
 	margin-top: 1%;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
+	width: 100%;
 }
 
 .pic{
 	margin-top: 3%;
-	width: 80%;
+	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
 }

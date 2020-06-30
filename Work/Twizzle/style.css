@@ -160,13 +160,13 @@ mark{
 	margin: auto;
 	color: #969696; 
 	font-family: 'Roboto', sans-serif;
-	font-size: 12pt;
+	font-size: 13pt;
 	font-weight: 300;
 	vertical-align: middle;
 }
 
 .intro{
-	width: 45%;
+	width: 56%;
 	margin-bottom: 3%;
 }
 
@@ -180,7 +180,7 @@ mark{
 
 
 .land {
-	width: 85%;
+	width: 100%;
 	margin-top: 5%;
 	margin-left: auto;
 	margin-right: auto;
@@ -191,7 +191,7 @@ mark{
 	margin-top: 2%;
 	margin-left: auto;
 	margin-right: auto;
-	width: 90%;
+	width: 100%;
 }
 
 .video {

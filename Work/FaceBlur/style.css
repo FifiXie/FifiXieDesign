@@ -154,3 +154,34 @@ mark{
 		background-color: #1919c8; 
 	}
 }
+
+.cont {
+	margin: auto;
+	color: #969696; 
+	font-family: 'Roboto', sans-serif;
+	font-size: 12pt;
+	font-weight: 300;
+	vertical-align: middle;
+}
+
+.intro{
+	width: 42%;
+	margin-top: 2%;
+}
+
+
+.land {
+	display: block;
+	margin-top: 4%;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.land img {
+	display: block;
+	margin-top: 1%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
