@@ -189,3 +189,94 @@ mark{
 	margin-right: auto;
 	width: 100%;
 }
+
+.gitlink{
+	width: 154px;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+}
+
+.gitlink a{
+	font-family: 'Rubik', sans-serif;
+	text-decoration: underline;
+	font-size: 11pt;
+	color: #bed6e1;	
+	font-weight: 500;
+}
+
+.gitlink a:hover{
+	text-decoration: 	underline;	
+	color: #bed6e1;	
+}
+
+@media (min-width: 1199.98px) {
+
+.container{
+	width: 80%;
+	margin: auto;
+	vertical-align: middle;
+}
+
+}
+
+
+@media (min-width: 1800px) {
+
+.container{
+	width: 63%;
+	margin: auto;
+	vertical-align: middle;
+}
+}
+
+@media (max-width: 800px) {
+
+.container{
+	width:90%;
+}
+
+.intro{
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+}
+
+
+
+.tit{
+	font-size: 	14pt;
+}
+
+.gallery {
+	display: block;
+	margin: auto;
+	width: 90%;
+}
+
+.gallery img {
+	width: 100%;
+margin-top: 	1%;
+}
+
+
+.footer p{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+}
+
+@media (max-width: 1200px) {
+
+.menu{
+	width: 90%;
+}
+
+.menuList li{
+	margin-left: 0%;
+	margin-right: 0%;
+	display: block;
+}
+}

@@ -214,6 +214,13 @@ iframe{
 }
 
 
+.display img{
+	width:100%;
+	display: 	block;	
+	margin-right: 	auto;	
+	margin-left: 	auto;	
+}
+
 .grid6{
 	display: block;
 	margin-top: 5%;
@@ -221,6 +228,7 @@ iframe{
 	margin-right: auto;
 	width: 100%;
 }
+
 
 .grid6 img{
 /*	border: solid 1px #D99A9A;*/
