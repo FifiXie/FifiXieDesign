@@ -159,14 +159,18 @@ mark{
 	margin: auto;
 	color: #969696; 
 	font-family: 'Roboto', sans-serif;
-	font-size: 12pt;
+	font-size: 13pt;
 	font-weight: 300;
 	vertical-align: middle;
 }
 
 .intro{
-	width: 42%;
+	width: 55%;
 	margin-top: 2%;
+}
+
+.semi{
+	font-weight: 400;
 }
 
 
