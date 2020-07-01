@@ -344,6 +344,8 @@ body{
 
     .footer p{
 	width: 100%;
+	text-align: center;
+	display: inline-block;
 	margin-right: auto;
 	margin-left: auto;
 }
