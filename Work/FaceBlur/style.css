@@ -259,6 +259,17 @@ mark{
 margin-top: 	1%;
 }
 
+.gitlink{
+	width: 	100%;
+	display: inline-block;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.footer{
+	width: 100%;
+}
 
 .footer p{
 	width: 100%;
