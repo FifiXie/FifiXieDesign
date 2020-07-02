@@ -17,10 +17,10 @@ function topFunction() {
 
 
 var _CONTENT = [ 
-	" Human-Computer Interaction ",
 	"Experience Design",
-	" Machine Ethics ",
-	" Industrial Design "
+	" Human-Computer Interaction ",
+	" Industrial Design ",
+	" Machine Ethics "
 ];
 
 // Current sentence being processed
