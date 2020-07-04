@@ -159,13 +159,13 @@ mark{
 	margin: auto;
 	color: #969696; 
 	font-family: 'Roboto', sans-serif;
-	font-size: 12pt;
+	font-size: 14pt;
 	font-weight: 300;
 	vertical-align: middle;
 }
 
 .intro{
-	width: 42%;
+	width: 95%;
 	margin-top: 2%;
 }
 
@@ -217,6 +217,7 @@ iframe{
 .display img{
 	width:100%;
 	display: 	block;	
+	margin-top: 2%;
 	margin-right: 	auto;	
 	margin-left: 	auto;	
 }
@@ -247,9 +248,9 @@ iframe{
 	vertical-align: middle;
 }
 
-.intro{
+/*.intro{
 	width: 60%;
-}
+}*/
 
 }
 

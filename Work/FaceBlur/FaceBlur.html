@@ -61,6 +61,67 @@
 				</div>
 
 				<br>	
+
+				<div class="headtitle">
+					<p>Background</p>
+
+				</div>
+
+				<br>
+
+				<div class="reason">
+
+
+					<p>Protests erupt since the killing of George Floyd. Photographers, journalists and many protesters are sharing images and videos of the protests they attended for documentations and spreading awareness. Many have raised concerned on the internet to encourage people to blur any identifiable faces in their photos and videos to protest protesters identity.  </p>
+					<p>The most recent talked-about example is the case of Edward Crawford. Crawford was photographed at a protest in Ferguson in 2015 after the killing of Michael Brown. Crawford was picture in the middle of throwing a flaming canister. A year later, Crawford was charged assaulting a police officer based on the photo taken of him, even though he claimed that he was throwing it away from the crowd, not towards the police. Crawford died in 2017, and his death was ruled as suicide. Although his family and many other have suspicions about his death, along with the deaths of six other men who were also tied to the protests back in 2015.</p>
+
+					<br>
+
+					<img src="images/ec.jpg">
+
+					
+				</div>
+					<p id="des">Image of Edward Crawford, sourced from Twitter</p>
+
+				<br>
+				<br>
+				<div class="headtitle">
+					<p>The Script</p>
+				</div>
+				<br>
+
+
+				<div class="reason">
+					<img id="miss" src="images/3.jpg">
+					<br>
+					<p>The Script uses OpenCV to read and process images. With the Haar Cascade Facial Detection Library, I chose the `frontal_alt` model for facial detection and tested the parameters for the best resault on my test sets of photos. I set the Scale Factor to 1.05 and minNeighbors to 2. Based on my testing, these are the parameters gives the best results. Based on my test set, setting the Scale factor too high will result in missing faces that sometimes with glasses or a slight profile and head tilt. Any number smaller than this will result in miss identifying objects as faces.</p>
+					<br>
+					<p>Example of missing face:</p>
+					<img id="miss2" src="images/5.jpg">
+					<br>
+					<p>After adjusting all the parameters, I then worked on blurring the dectected regions in the photos, and tested on different images. I then streamlined all the steps into a signle fuction and created a for loop to read all the images in one directory, creat copies, detect and blur faces in all the photos and export the edited copies into a different `output` directory. This scirpt allows anyone to batch edit any amount of photos in no time and keep the originals as well. </p>
+					<br>
+					<img src="images/4.jpg">
+
+					
+				</div>
+
+				<br>
+				<br>
+
+				<div class="headtitle">
+						<p>Inspiration</p>
+				</div>
+				<br>
+
+				<div class="reason">
+					<p>I was inspired by Everest Pipkin's Image Scrubber, a web and mobile based app that allows people to upload photo, scrub the metadata and manually blur or paint over each face in the photo. I also loved how elegant and clean the project was built. My only concern was that it would still take considerable amount of time for anyone to go through hundreds or thousands of images that they have taken. I then decided to create a tool could process and edit photos in batch so that people can share their documentations and spread awareness in a timely manner.</p>
+
+					<br>
+
+					<img src="images/6.jpg">
+				</div>
+					
 				
 
 			</div>

@@ -159,7 +159,7 @@ mark{
 	margin: auto;
 	color: #969696; 
 	font-family: 'Roboto', sans-serif;
-	font-size: 13pt;
+	font-size: 14pt;
 	font-weight: 300;
 	vertical-align: middle;
 }
@@ -209,6 +209,45 @@ mark{
 	text-decoration: 	underline;	
 	color: #bed6e1;	
 }
+
+
+.reason img{
+	width: 100%;
+	display: inline-block;
+	margin-right: auto;
+	margin-right: auto;
+}
+
+.reason p{
+	width: 92%;
+	text-indent: 4%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#miss{
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#miss2{
+	width: 75%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#des{
+	text-indent: none;
+	font-size: 9pt;
+	margin-left: 0;
+	font-weight: 400;
+}
+
+
 
 @media (min-width: 1199.98px) {
 
@@ -281,7 +320,21 @@ margin-top: 	1%;
 	margin-left: auto;
 }
 
+.reason p{
+	width: 100%;
+	text-indent: 0%;
 }
+
+/*.reason img{
+	width: 100%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+*/
+}
+
+
 
 @media (max-width: 1200px) {
 
