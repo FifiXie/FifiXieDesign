@@ -272,6 +272,17 @@ body{
 	background-size: 100%;
 }
 
+#item12{
+
+	background: url('Work/images/cam.png') no-repeat;
+	background-size: 100%;
+}
+
+#item12:hover {
+	background: visible;
+	background: url('Work/images/cam.jpg') no-repeat;
+	background-size: 100%;
+}
 
 
 .footer p{
