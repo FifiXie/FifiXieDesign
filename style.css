@@ -147,6 +147,58 @@ body{
 	margin-bottom: 2%;*/
 }
 
+
+.contain-Dev {
+
+}
+
+.filterDiv {
+/*  float: left;*/
+/*  background-color: #2196F3;*/
+/*  color: #ffffff;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;*/
+  display: none; /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btnz {
+ border: none;
+ outline: none;
+  padding: 9px 12px;
+  cursor: pointer;
+  color: #1919c8;
+  background-color: white;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 13pt;
+ border-radius: 5pt;
+}
+
+/* Add a light grey background on mouse-over */
+.btnz:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background to the active button */
+.btnz.active {
+  background-color: #e3e6eb;
+  color: #1919c8;
+}
+
+#myBtnContainer{
+	width: 52%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #item1 {
 	background: url('Work/images/mmp.png') no-repeat;
 	background-size: 100%;
@@ -360,7 +412,6 @@ body{
 	margin-right: auto;
 	margin-left: auto;
 }
-
 }
 
 @media (max-width: 1200px) {
@@ -373,6 +424,10 @@ body{
 	margin-left: 0%;
 	margin-right: 0%;
 	display: block;
+}
+
+#myBtnContainer{
+	width: 70%;
 }
 
 }
