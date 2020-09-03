@@ -212,3 +212,63 @@ mark{
 	font-weight: 500;
 	color: #1919c8;
 }
+
+@media (min-width: 1199.98px) {
+
+.container{
+	width: 80%;
+	margin: auto;
+	vertical-align: middle;
+}
+
+}
+
+
+@media (min-width: 1800px) {
+
+.container{
+	width: 63%;
+	margin: auto;
+	vertical-align: middle;
+}
+}
+
+@media (max-width: 800px) {
+
+.container{
+	width:96%;
+}
+
+.intro{
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+}
+
+
+
+.footer {
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+}
+
+
+
+@media (max-width: 1200px) {
+
+.menu{
+	width: 90%;
+}
+
+.menuList li{
+	margin-left: 0%;
+	margin-right: 0%;
+	display: block;
+}
+}
