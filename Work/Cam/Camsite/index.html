@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8' />
+  <title>Webcam Across the World</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+  <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.2.0/mapbox-gl-geocoder.min.js'></script>
+  <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.2.0/mapbox-gl-geocoder.css' type='text/css' />
+  <link rel="stylesheet" href="https://use.typekit.net/fdb8ozz.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body>
+
+  <div class="parent">
+     <div class="button">
+     <button id = "clear" onclick="clearBox('cart_item')" > X </button>
+  </div>
+  <div id='map'></div>
+ 
+  <div id='info'></div>
+
+  <div id='geocoder' class='geocoder'></div>
+  <div id='pics'></div>
+</div>
+
+  <script type="text/javascript" src="script.js"></script>
+  
+</body>
+</html>
+

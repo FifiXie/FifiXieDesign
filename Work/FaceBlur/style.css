@@ -116,6 +116,26 @@ mark{
 	padding-left: 30px !important;
 }
 
+.column {
+  float: left;
+  width: 30%;
+  margin-right: 3.3%;
+}
+
+.rowz{
+	width: 98%;
+	margin-left: auto;
+	margin-left: auto;
+/*	text-align: center;*/
+}
+
+/* Clear floats after the columns */
+.rowz:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 .headtitle {
 /*	//margin: auto;*/
@@ -171,6 +191,12 @@ mark{
 
 .semi{
 	font-weight: 400;
+}
+
+.categ{
+	font-weight: 500;
+	/*color: #949494;*/
+	color: #1919c8;
 }
 
 
