@@ -141,13 +141,13 @@ for (var i = 0; i < btns.length; i++) {
 }
 
 //shuffle
-$(function () {
-    var parent = $("#shuffle");
-    var divs = parent.children();
-    while (divs.length) {
-        parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
-    }
-});
+// $(function () {
+//     var parent = $("#shuffle");
+//     var divs = parent.children();
+//     while (divs.length) {
+//         parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
+//     }
+// });
 
 
 // ! function()
