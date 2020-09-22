@@ -136,22 +136,19 @@ body{
 
 /*    min-height: 100vh;*/
     border-radius: 10px;
-
 /*    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
 */
+	margin-top: 2%;
 }
 
 .gridlay img{
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    margin-top: 3%;
-/*	margin-top: 3%;
-	margin-bottom: 2%;*/
+	width: 100%;
+	height: auto;
+/*	margin-top: 3%;*/
+	margin-bottom: 3%;
 }
 
-.gridlay figcaption{
+/*.gridlay figcaption{
 	display: block;
     margin-left: auto;
     margin-right: auto;
@@ -160,10 +157,10 @@ body{
 	font-weight: 500;
 	font-size: 13pt;
 	color: #1919c8;
-/*	margin-top: 3%;
-	margin-bottom: 2%;*/
+	margin-top: 3%;
+	margin-bottom: 2%;
 }
-
+*/
 
 .footer p{
 	width: 	200px;
@@ -218,6 +215,72 @@ body{
 /*.baguetteBox-button {
     background-color: transparent;	 !important;
 }*/
+#item1 {
+	background: url('camera.png') no-repeat;
+	background-size: 100%;
+}
+
+#item1:hover {
+	background: visible;
+	background: url('../Work/images/photo.jpg') no-repeat;
+	background-size: 100%;
+}
+
+#item2 {
+	background: url('../Work/images/selfie.png') no-repeat;
+	background-size: 100%;
+}
+
+#item2:hover {
+	background: visible;
+	background: url('../Work/images/selfie.jpg') no-repeat;
+	background-size: 100%;
+}
+
+#item3 {
+	background: url('art.png') no-repeat;
+	background-size: 100%;
+}
+
+#item3:hover {
+	background: visible;
+	background: url('../Work/images/illustration.jpg') no-repeat;
+	background-size: 100%;
+}
+
+#item4 {
+	background: url('../Work/images/pcomp.png') no-repeat;
+	background-size: 100%;
+}
+
+#item4:hover {
+	background: visible;
+	background: url('../Work/images/pcomp.jpg') no-repeat;
+	background-size: 100%;
+}
+
+#item5 {
+	background: url('../Work/images/tartarus.png') no-repeat;
+	background-size: 100%;
+}
+
+#item5:hover {
+	background: visible;
+	background: url('../Work/images/tartarus.jpg') no-repeat;
+	background-size: 100%;
+}
+
+
+#item8 {
+	background: url('../Work/images/iic.png') no-repeat;
+	background-size: 100%;
+}
+
+#item8:hover {
+	background: visible;
+	background: url('../Work/images/iic.jpg') no-repeat;
+	background-size: 100%;
+}
 
 
 @media(max-width: 768px) {
