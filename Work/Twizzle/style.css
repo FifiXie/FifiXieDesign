@@ -193,10 +193,11 @@ mark{
 
 .land img {
 	display: block;
-	margin-top: 2%;
+	margin-top: 1%;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
+	border: solid 1px #1919c8;
 }
 
 .video {
