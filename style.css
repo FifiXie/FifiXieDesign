@@ -125,6 +125,16 @@ body{
 	animation: blink .75s step-end infinite;
 }
 
+
+
+#newLink a{
+	color: #fa70d5;
+}
+
+#newLink {
+	color: black;
+}
+
 @keyframes blink {
 	from, to { 
 		background-color: transparent 
